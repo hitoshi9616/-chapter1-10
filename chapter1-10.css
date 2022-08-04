@@ -19,7 +19,7 @@
 
 .step-box {
   width: 300px;
-  padding: 10px;
+  padding: 10px 0;
   background-color: #eee;
   position: relative;
 }
@@ -74,18 +74,18 @@ span {
 }
 
 @media screen and (max-width: 768px) {
-  
+
   .content {
     display: block;
     width: 100%;
     margin: 50px auto;
   }
-  
+
   .step-box {
     width: 90%;
     margin: 0 5%;
   }
-  
+
   .step1,
   .step2 {
     margin-bottom: 20px;
