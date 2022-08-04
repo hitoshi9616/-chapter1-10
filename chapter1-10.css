@@ -54,13 +54,14 @@
 
 .step-logo {
   background-color: #ff9a4b;
+  height: 27px;
   width: 45px;
-  height: 30px;
   position: absolute;
 }
 
 span {
   color: #fff;
+  padding-left: 1px;
 }
 
 .step-title {
@@ -94,5 +95,4 @@ p {
   .step2 {
     margin-bottom: 20px;
   }
-  
 }
