@@ -19,7 +19,9 @@
 
 .step-box {
   width: 300px;
+  padding: 10px;
   background-color: #eee;
+  position: relative;
 }
 
 .step1,
@@ -28,7 +30,6 @@
 }
 
 .step1-visual {
-  margin: 10px;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
@@ -37,7 +38,6 @@
 
 
 .step2-visual {
-  margin: 10px;
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
@@ -45,7 +45,6 @@
 }
 
 .step3-visual {
-  margin: 10px;
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
@@ -54,9 +53,9 @@
 
 .step-logo {
   background-color: #ff9a4b;
-  height: 27px;
-  width: 45px;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 span {
@@ -65,11 +64,7 @@ span {
 }
 
 .step-title {
-  padding: 5px 0 5px 10px;
-}
-
-p {
-  padding: 0 10px;
+  padding: 15px 0 5px 0;
 }
 
 .footer {
